@@ -2,7 +2,13 @@ body{
     background-color: #DBBDF1;
     font-family: Verdana, Tahoma, sans-serif;
     text-align: center;
+
 }
+.container {
+    margin-left: auto;
+    margin-right: auto; 
+    
+    }
 h2{
     color:#536DFE;
     margin-bottom: 0px;
@@ -32,6 +38,19 @@ button{
 }
 #resultado{
     text-align: left;
+    padding: 10px;
+    margin-top: 15px;
+    max-width: 350px;
+    background-color: white;
+    border: 1px solid #810097;
+    border-radius: 10px;
+    font-family:'times new roman';
+}
+button{
+    color:white;
+    border: white solid 1px;
+    background: #810097;
+    }
     padding: 10px;
     margin-top: 15px;
     max-width: 350px;
