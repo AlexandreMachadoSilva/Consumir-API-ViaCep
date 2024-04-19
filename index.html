@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<!--Cabeçalho da Aplicação chama o arquivo de script e arquivo de estilos-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +9,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!--Titulo da Aplicação-->
     <h2>Condominio<br>Parque Serafim</h2>
+     <!--Imagem do logotipo do comdominio-->
     <img src="hands.png" alt="Condominio Parque Serafim" width="100" height="100">
+     <!--Titulo para indicação-->
     <h3>Consulta Endereço ViaCEP</h3>
+     <!--Rotulo do campo CEP-->
     <label>Digite o CEP:</label>
+     <!--Campo para inserir CEP-->
     <Input type="number" id="cep"></Input>
+     <!--componente botão com ação para chamar a função do script-->
     <button onclick="consultaEndereco()">Pesquisar</button>
-    
+     <!--Área para exibir o resultado da função-->
     <div id="resultado" class="container">
+         <!--Texto de exibição enquanto a função não retorna o resultado-->
         <p>Informe um CEP para obter sua pesquisa<br>(use somente números)</p>
     </div>
 </body>
