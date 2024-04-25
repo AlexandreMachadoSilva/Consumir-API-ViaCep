@@ -4,7 +4,7 @@ function consultaEndereco(){
 
     // condição para conferir se foram digitados apenas 8 digitos do CEP
     if(cep.length !== 8){
-        alert('Cep inválido!');
+        resultado.innerHTML = "Número CEP inválido!"
         return;
     }
     // declara a variavel que recebe a API
